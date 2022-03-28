@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- ANCHOR: Metadata-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ANCHOR: Import goolge fonts-->
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+<style> 
+  #s-lg-tabs-container .nav-tabs > .active > a, #s-lg-tabs-container .nav-tabs > .active > button, #s-lg-tabs-container .nav-pills > .active > a, #s-lg-tabs-container .nav-pills > .active > button {background-color: #000000}
+
+  #s-lg-tabs-container .nav-tabs > li > a, #s-lg-tabs-container .nav-tabs > li > button, #s-lg-tabs-container .nav-pills > li > a, #s-lg-tabs-container .nav-pills > li > button {background-color: #141414}
+
+  #s-lg-tabs-container .nav-tabs > li > a:hover, #s-lg-tabs-container .nav-tabs > li > button:hover, #s-lg-tabs-container .nav-pills > li > a:hover, #s-lg-tabs-container .nav-pills > li > button:hover {background-color: #292929}
+
+  #s-lg-tabs-container .nav-tabs > .active > a:hover, #s-lg-tabs-container .nav-pills > .active > a:hover, #s-lg-tabs-container .nav-tabs > .active > button:hover, #s-lg-tabs-container .nav-pills > .active > button:hover {background-color: #292929}
+
+.slick-initialized .slick-slide {
+    display: none;
+}
+
+.slick-slider .slick-track, .slick-slider .slick-list {
+    transform: translate3d(0, 0, 0) !important;
+}
+
+[aria-hidden="false"] {
+    display: block !important;
+}
+</style>
+</head>
+
+<body>
+  <!-- ANCHOR: Online Resource Kid Activity Small -->
+  <div id="online-resource-kid-container"></div>
+  <h16><b><u>How to access our online resources</h16></b></u>
+  <p>1. Click the icon or picture of the site that you would like to visit. </p>
+  <p>2. Log in using your library membership card number or Qatar ID number.  </p>
+  <p>3. Enter your password.</p>
+  <p>4. If you face technical problems in logging into your account, kindly contact us through circreg@qnl.qa.</p>
+
+  <!-- ANCHOR: App constants-->
+  <script async>
+    (function () {
+     const mainTitle = document.getElementById('s-lg-guide-name').innerHTML;
+     document.getElementById('s-lg-guide-name').innerHTML = mainTitle.slice(mainTitle.indexOf(':') + 1);
+
+      const onlineResourceKidSmall = [
+        {
+          // SECTION Online Resource Kid activity cover photo
+          src: 'https://libapps.s3.amazonaws.com/accounts/241540/images/Audio_book.JPG',
+
+          // SECTION Online Resource Kid activity heading
+          alt: 'Audi Books',
+
+          // SECTION Online Resource Kid activity redirect link
+          href: 'http://www.audiobookcloud.com.eres.qnl.qa/autologin.aspx?U=qatarlib&P=login',
+        },
+        {
+          // SECTION Online Resource Kid activity cover photo
+          src: '//libapps.s3.amazonaws.com/accounts/241540/images/scholastic_bookflix_login-01.jpg',
+
+          // SECTION Online Resource Kid activity heading
+          alt: 'Book Flix',
+
+          // SECTION Online Resource Kid activity redirect link
+          href: 'https://login.eres.qnl.qa/login?qurl=https://slz03.scholasticlearningzone.com%2fauth%2fintl%2fSBA',
+        },
+        {
+          // SECTION Online Resource Kid activity cover photo
+          src: 'https://libapps.s3.amazonaws.com/accounts/241540/images/booki_logo_with_strapline.jpg',
+
+          // SECTION Online Resource Kid activity heading
+          alt: 'Booki',
+
+          // SECTION Online Resource Kid activity redirect link
+          href: 'https://www.booki.life/qnl',
+        },
+        {
+          // SECTION Online Resource Kid activity cover photo
+          src: '//libapps.s3.amazonaws.com/accounts/241540/images/bookshare-logo-small_2.jpg',
+
+          // SECTION Online Resource Kid activity heading
+          alt: 'Book Share',
+
+          // SECTION Online Resource Kid activity redirect link
+          href: 'https://www.bookshare.org/cms/',
+        },
+        {
+          // SECTION Online Resource Kid activity cover photo
+          src: 'https://libapps.s3.amazonaws.com/accounts/241540/images/britannicalogo.jpg',
+
+          // SECTION Online Resource Kid activity heading
+          alt: 'Brittanica',
+
+          // SECTION Online Resource Kid activity redirect link
+          href: 'https://login.eres.qnl.qa/login?qurl=http://school.eb.com%2flevels%2f',
+        },
+         {
+          // SECTION Online Resource Kid activity cover photo
+          src: 'https://libapps.s3.amazonaws.com/accounts/241540/images/IReadarabic.jpg',
+
+          // SECTION Online Resource Kid activity heading
+          alt: 'Ireadarabic',
+
+          // SECTION Online Resource Kid activity redirect link
+          href: 'https://www-ireadarabic-com.eres.qnl.qa/en/',
+        },
+          {
+          // SECTION Online Resource Kid activity cover photo
+          src: 'https://libapps.s3.amazonaws.com/accounts/241540/images/education_above_all.png',
+
+          // SECTION Online Resource Kid activity heading
+          alt: 'home schooling',
+
+          // SECTION Online Resource Kid activity redirect link
+          href: 'https://resources.educationaboveall.org/',
+        },
+         {
+          // SECTION Online Resource Kid activity cover photo
+          src: 'https://libapps.s3.amazonaws.com/accounts/241540/images/Jana.jpg',
+
+          // SECTION Online Resource Kid activity heading
+          alt: 'JANA',
+
+          // SECTION Online Resource Kid activity redirect link
+          href: 'https://ijana-com.eres.qnl.qa/newqnl',
+        },
+         {
+          // SECTION Online Resource Kid activity cover photo
+          src: 'https://libapps.s3.amazonaws.com/accounts/241540/images/Nahla.jpg',
+
+          // SECTION Online Resource Kid activity heading
+          alt: 'Nahla',
+
+          // SECTION Online Resource Kid activity redirect link
+          href: 'https://login.eres.qnl.qa/login?qurl=https://www.nahlawanahil.com%2f',
+        },
+         {
+          // SECTION Online Resource Kid activity cover photo
+          src: 'https://libapps.s3.amazonaws.com/accounts/241540/images/Novelist2.png',
+
+          // SECTION Online Resource Kid activity heading
+          alt: 'Novelist',
+
+          // SECTION Online Resource Kid activity redirect link
+          href: 'https://login.eres.qnl.qa/login?qurl=http://search.ebscohost.com%2flogin.aspx%3fauthtype%3dip%2cuid%26custid%3dns230765%26profile%3dnovelistk8',
+        }, {
+          // SECTION Online Resource Kid activity cover photo
+          src: 'https://libapps.s3.amazonaws.com/accounts/241540/images/novelist-plus-button-140.png',
+
+          // SECTION Online Resource Kid activity heading
+          alt: 'Noveslistplus',
+
+          // SECTION Online Resource Kid activity redirect link
+          href: 'https://login.eres.qnl.qa/login?qurl=http://search.ebscohost.com%2flogin.aspx%3fauthtype%3dip%2cuid%26custid%3dns230765%26profile%3dnovplus',
+        }, {
+          // SECTION Online Resource Kid activity cover photo
+          src: 'https://libapps.s3.amazonaws.com/accounts/241540/images/Overdrive4.jpg',
+
+          // SECTION Online Resource Kid activity heading
+          alt: 'Overdrive',
+
+          // SECTION Online Resource Kid activity redirect link
+          href: 'https://login.eres.qnl.qa/login?qurl=http://qnl.lib.overdrive.com%2f',
+        },  {
+          // SECTION Online Resource Kid activity cover photo
+          src: 'https://libapps.s3.amazonaws.com/accounts/241540/images/Scholastis.jpg',
+
+          // SECTION Online Resource Kid activity heading
+          alt: 'Scholasticsgo',
+
+          // SECTION Online Resource Kid activity redirect link
+          href: 'https://login.eres.qnl.qa/login?qurl=https://slz03.scholasticlearningzone.com%2fauth%2fintl%2fSBA',
+        }, 
+        {
+          // SECTION Online Resource Kid activity cover photo
+          src: 'https://libapps.s3.amazonaws.com/accounts/241540/images/Teen_book_Cloud.JPG',
+
+          // SECTION Online Resource Kid activity heading
+          alt: 'Tumble book cloud',
+
+          // SECTION Online Resource Kid activity redirect link
+          href: 'http://www.tumblebookcloud.com.eres.qnl.qa/autologin.aspx?U=qatarlib&P=login',
+        },
+        {
+          // SECTION Online Resource Kid activity cover photo
+          src: 'https://libapps.s3.amazonaws.com/accounts/241540/images/Trueflix2.jpg',
+
+          // SECTION Online Resource Kid activity heading
+          alt: 'Trueflix',
+
+          // SECTION Online Resource Kid activity redirect link
+          href: 'https://slz03-scholasticlearningzone-com.eres.qnl.qa/auth/intl/SBA',
+        }, {
+          // SECTION Online Resource Kid activity cover photo
+          src: 'https://libapps.s3.amazonaws.com/accounts/241540/images/Tumblebook.jpeg',
+
+          // SECTION Online Resource Kid activity heading
+          alt: 'TumbleEbook',
+
+          // SECTION Online Resource Kid activity redirect link
+          href: 'http://www.tumblebooklibrary.com.eres.qnl.qa/auto_login.aspx?U=qatarlib&P=libra',
+        }, {
+          // SECTION Online Resource Kid activity cover photo
+          src: 'https://libapps.s3.amazonaws.com/accounts/241540/images/Tumble_Math.JPG',
+
+          // SECTION Online Resource Kid activity heading
+          alt: 'TumbleMath',
+
+          // SECTION Online Resource Kid activity redirect link
+          href: 'http://www.tumblemath.com/autologin.aspx?U=qatarnl&P=math',
+        },
+        
+        
+      ];
+
+      // ANCHOR Create components
+      const createKidSmallPhotoComponent = ({ href, src, alt }) => {
+        // Create UI components
+        const newLinkComponent = document.createElement('a');
+        const newPhotoComponent = document.createElement('img');
+
+        // Set UI attributes
+        newLinkComponent.setAttribute('class', 'online-resource-kid-link');
+        newLinkComponent.setAttribute('href', href);
+        newLinkComponent.setAttribute('target', '_blank');
+        newLinkComponent.setAttribute('rel', 'noreferrer noopener');
+        newPhotoComponent.setAttribute('class', 'online-resource-kid-photo');
+        newPhotoComponent.setAttribute('src', src);
+        newPhotoComponent.setAttribute('alt', alt);
+        newPhotoComponent.setAttribute('loading', 'lazy');
+
+        // Append photo as link's children
+        newLinkComponent.appendChild(newPhotoComponent);
+
+        return newLinkComponent;
+      }
+
+      onlineResourceKidSmall
+        .forEach((resource) => {
+          document
+            .getElementById('online-resource-kid-container')
+            .insertBefore(createKidSmallPhotoComponent(resource), null);
+        })
+    })()
+  </script>
+
+  <!-- ANCHOR: Inline styling-->
+  <style>
+    .s-lib-box .s-lib-box-title {
+      background-color: black;
+      color: white;
+    }
+
+    .online-resource-kid-photo {
+      width: 100%;
+      height: 120px;
+      object-fit: contain;
+      border-radius: 10px;
+      box-shadow: 0px 2px #635e5e;
+    }
+
+    #online-resource-kid-container {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-column-gap: 12px;
+      grid-row-gap: 12px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 16px;
+    }
+
+    #weekly-activity-container #weekly-activity-link {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #weekly-activity-photo {
+      width: 64%;
+      height: auto;
+      object-fit: cover;
+    }
+  </style>
+</body>
+
+</html>
